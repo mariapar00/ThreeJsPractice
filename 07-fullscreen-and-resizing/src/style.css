@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /* if the scrolling is not catched by controls 
+  then prevent scrolling the page beyond the limit */
+  overflow: hidden;
+}
+
+/* remove scrollbar */
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* no outline when drag drop */
+  outline: none;
+}
